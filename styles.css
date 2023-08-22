@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1.heading {
+    font-size: 40px;
+    color: brown;
+}
+
+img.carmie {
+    height: 400px;
+    width: auto;
+}
+
+.recipe-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.recipe {
+    text-align: center;
+    margin: 0 0px;
+}
+
+.recipe img {
+    max-width: auto;
+    height: 300px;
+    border: 1px solid #ccc;
+}
