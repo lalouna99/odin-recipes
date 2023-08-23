@@ -4,20 +4,51 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: rgb(153, 205, 221);
+    font-family: Bradley Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+
+
 body {
     text-align: center;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
+    background-color: aliceblue;
+    
+}
+#description {
+    font-weight: lighter;
+    color: rgb(61, 129, 129);
+    background-color: rgb(153, 205, 221);
+    max-width: fit-content;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
 }
 
+
 h1.heading {
+    display: flex;
     font-size: 40px;
-    color: brown;
+    color: rgb(59, 37, 37);
+    margin: 10px;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 img.carmie {
     height: 400px;
     width: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .recipe-grid {
@@ -25,7 +56,9 @@ img.carmie {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-}
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
 
 .recipe {
     text-align: center;
@@ -35,5 +68,17 @@ img.carmie {
 .recipe img {
     max-width: auto;
     height: 300px;
-    border: 1px solid #ccc;
+    border: 2px solid rgb(61, 129, 129);
+    margin-bottom: 30px;
+  
+    
+}
+
+footer {
+    margin-top: 100px; 
+    text-align: center; 
+}
+
+.footer-content {
+    padding: 50px; 
 }
