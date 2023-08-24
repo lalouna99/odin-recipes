@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 header {
     background-color: rgb(153, 205, 221);
     font-family: Bradley Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 10px;
 }
 
 
@@ -16,6 +20,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     background-color: aliceblue;
+    border: 2px solid black;
     
 }
 #description {
@@ -29,6 +34,8 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 30px auto;
+    border: 1px solid rgb(39, 75, 109);
+    padding: 10px;
 }
 
 
@@ -42,6 +49,7 @@ h1.heading {
     justify-content: center;
     align-items: center;
     
+    
 }
 
 img.carmie {
@@ -50,6 +58,8 @@ img.carmie {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+
 
 .recipe-grid {
     display: flex;
@@ -73,6 +83,8 @@ img.carmie {
   
     
 }
+
+
 
 footer {
     margin-top: 100px; 
