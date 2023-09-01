@@ -9,9 +9,9 @@ header {
     background-color: rgb(153, 205, 221);
     font-family: Bradley Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 700;
-    border: 1px solid blue;
-    padding: 20px;
-    margin: 10px;
+    border: 3px solid rgb(90, 196, 161);
+    padding: 5px;
+    margin: 2px;           
 }
 
 
@@ -20,7 +20,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     background-color: aliceblue;
-    border: 2px solid black;
+    
     
 }
 #description {
@@ -34,8 +34,8 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 30px auto;
-    border: 1px solid rgb(39, 75, 109);
-    padding: 10px;
+    border: 3px solid rgb(90, 196, 161);
+    padding: 5px;
 }
 
 
@@ -53,10 +53,10 @@ h1.heading {
 }
 
 img.carmie {
-    height: 400px;
+    height: 300px;
     width: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -66,9 +66,10 @@ img.carmie {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    max-width: 1200px;
+    max-width: 800px;
     align-items: center;
     margin: 0 auto;
+    margin-top: 5px;
 
 .recipe {
     text-align: center;
@@ -85,6 +86,23 @@ img.carmie {
 }
 
 
+#lasagna-button, #paella-button, #pesto-pasta-button {
+    border: 3px solid rgb(90, 196, 161);
+    padding: 8px 20px;
+    background-color: rgb(153, 205, 221);
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    color: rgb(61, 129, 129);
+
+
+}
+
+ #lasagna-button:hover, #paella-button:hover, #pesto-pasta-button:hover {
+    color: purple;
+}
+
+
 
 footer {
     margin-top: 100px; 
@@ -93,4 +111,7 @@ footer {
 
 .footer-content {
     padding: 50px; 
+    margin-top: 50px;
+}
+
 }
