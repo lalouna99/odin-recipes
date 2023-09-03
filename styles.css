@@ -9,9 +9,17 @@ header {
     background-color: rgb(153, 205, 221);
     font-family: Bradley Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 700;
-    border: 3px solid rgb(90, 196, 161);
+  
+    display: flex;
+    justify-content: space-around;        
+}
+
+.links {
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: space-around;
     padding: 5px;
-    margin: 2px;           
+    margin-bottom: 5px ;
 }
 
 
@@ -90,7 +98,8 @@ img.carmie {
     border: 3px solid rgb(90, 196, 161);
     padding: 8px 20px;
     background-color: rgb(153, 205, 221);
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     width: fit-content;
     color: rgb(61, 129, 129);
@@ -104,14 +113,16 @@ img.carmie {
 
 
 
-footer {
-    margin-top: 100px; 
-    text-align: center; 
+.return-to-top {
+    
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    margin-top: 10px;
+    border: 2px solid white;
+
 }
 
-.footer-content {
-    padding: 50px; 
-    margin-top: 50px;
-}
+
 
 }
