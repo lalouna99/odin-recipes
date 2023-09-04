@@ -1,15 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
 
 header {
     background-color: rgb(153, 205, 221);
     font-family: Bradley Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 700;
-  
+
     display: flex;
     justify-content: space-around;        
 }
@@ -19,7 +13,20 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    margin-bottom: 5px ;
+    margin-bottom: 5px;
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(39, 119, 128);
+    transition: color 0.3s, background-color 0.3s;
+
+}
+.links:hover {
+    color: purple;
+    
+    background-color: aqua;
 }
 
 
@@ -28,8 +35,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     background-color: aliceblue;
-    
-    
 }
 #description {
     font-weight: lighter;
@@ -39,7 +44,7 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center;
+    
     flex-direction: column;
     margin: 30px auto;
     border: 3px solid rgb(90, 196, 161);
@@ -50,7 +55,7 @@ body {
 h1.heading {
     display: flex;
     font-size: 40px;
-    color: rgb(59, 37, 37);
+    color: rgb(61, 129, 129);
     margin: 10px;
     height: 80px;
     text-align: center;
@@ -71,11 +76,14 @@ img.carmie {
 
 .recipe-grid {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
+    
     padding: 10px;
     max-width: 800px;
-    align-items: center;
+    
     margin: 0 auto;
     margin-top: 5px;
 
@@ -103,14 +111,24 @@ img.carmie {
     margin: 0 auto;
     width: fit-content;
     color: rgb(61, 129, 129);
+    
+    
+    
+    
 
 
 }
 
  #lasagna-button:hover, #paella-button:hover, #pesto-pasta-button:hover {
     color: rgb(173, 9, 173);
+    background-color: rgb(173, 224, 224);
+    
+    
 }
 
+.paella-button a, .lasagna-button a, .pesto-pasta-button a {
+    text-decoration: none;
+}
 
 
 .return-to-top {
